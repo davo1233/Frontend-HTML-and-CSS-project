@@ -1,33 +1,28 @@
 
 
 .border {
-    margin: 5px 10px 5px 10px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     width:1219px;
     height:883px;
-}
-
-
-#scene {
-    padding:10px;
-    background-color: #f3cd4a;
-    display: inline-block;
-
+    margin:15px 0px 0px 20px;
 }
 
 .first_para_info {
     display: flex;
-    margin:5px;
-    justify-content: space-between;
+    margin:0px 0px 0px 30px;
+}
+
+#first_para_text {
+    width:869px;
+    position:relative;
+    bottom:10px;
 }
 
 #koala_info {
     background-color: #eeeeee;
     color:#666666;
     float: right;
-    padding:5px;
-    width:300px;
 }
 
 #koala_id_subjects {
@@ -37,6 +32,26 @@
 }
 
 #koala_title {
-    left:10px;
+    left:20px;
     position: relative;
+    width:350px;
 }
+
+#scene {
+    padding-left:30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #f3cd4a;
+    display: inline-block;
+
+}
+#second_section {
+    margin:0px 0px 0px 30px;
+}
+
+
+
+
+
+
