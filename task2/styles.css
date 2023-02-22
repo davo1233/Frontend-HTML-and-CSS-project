@@ -1,5 +1,23 @@
 body {
-    min-width: 400px;
-    max-width: 600px;
-    max-height: 600px;
+    width:420px;
+    height:699px;
+
+}
+
+.grid-container { 
+    column-count: 12;
+    column-gap: 0px;
+
+}
+
+.grid-item {
+    font-size: 30px;
+    text-align: center;
+    height: 699px; 
+    column-rule-style: solid;
+    background: #15014d;
+}
+
+#light_blue { 
+    background: #01287c;
 }
