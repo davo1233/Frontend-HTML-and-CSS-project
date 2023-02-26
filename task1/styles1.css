@@ -1,11 +1,25 @@
-
+body::before {
+    content: '';
+    background-image: url('page.PNG');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.3;
+    height: 883px;
+    width: 1219px;
+    z-index: 1;
+}
 
 .border {
-    font-size: 20px;
+    font-size: 14pt;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
     width:1219px;
     height:883px;
-    margin:15px 0px 0px 20px;
+    margin:5px 0px 0px 25px;
 }
 
 .first_para_info {
@@ -23,33 +37,60 @@
     background-color: #eeeeee;
     color:#666666;
     float: right;
+    background-size: calc(100% - 100px) calc(100% - 100px);
+    flex-shrink: 0.5;
 }
 
 #koala_id_subjects {
     list-style-type: none;
     position: relative;
-    right:20px;
+    right:28px;
+    font-size: 13pt;
+    bottom:15px;
 }
 
 #koala_title {
-    left:20px;
+    left:15px;
     position: relative;
     width:350px;
+    font-size:19pt;
 }
 
 #scene {
+    font-size: 22pt;
     padding-left:30px;
     padding-right: 30px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     background-color: #f3cd4a;
     display: inline-block;
+    position:relative;
+    bottom:15px;
+
 
 }
 #second_section {
-    margin:0px 0px 0px 30px;
+    margin:10px 0px 0px 30px;
+    padding:0 0 30px 0;
+    position:relative;
+    bottom:50px;
+    width:92%;
 }
 
+#second_section h2 {
+    top:5px;
+    position: relative;
+}
+
+#elephants {
+    bottom:20px;
+    position: relative;
+}
+
+#elephants ul {
+    position:relative;
+    left:10px;
+}
 
 
 

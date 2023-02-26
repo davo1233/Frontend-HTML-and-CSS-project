@@ -4,20 +4,170 @@ body {
 
 }
 
-.grid-container { 
-    column-count: 12;
-    column-gap: 0px;
-
+.container { 
+    position: relative;
+    bottom:9px;
+    right:9px;
+    display:flex;
+    flex-direction:row;
+    width: 100%;
 }
 
-.grid-item {
+.item {
     font-size: 30px;
+    height: 699px;
+    flex-basis:100%;
     text-align: center;
-    height: 699px; 
-    column-rule-style: solid;
     background: #021c2d;
 }
 
 #light_blue { 
     background: #00263f;
+}
+
+.purple_square {
+    height: 31px;
+    width: 31px;
+    background-color: #ae81ff;
+    position: relative;
+    border-radius: 1px;
+    box-shadow: 0 0 2px #ae81ff;
+    z-index: 1;
+}
+
+.red_square {
+    height: 31px;
+    width: 31px;
+    background-color: #e94659;
+    position: relative;
+    border-radius: 1px;
+    box-shadow: 0 0 2px #e94659;
+    z-index: 1;
+}
+
+#square-1 {
+    bottom:77px;
+    left:307px;
+}
+
+#square-2 {
+    bottom:73px;
+    left:307px;
+}
+
+#square-3 {
+    bottom:104px;
+    left:273px;
+}
+
+#square-4 {
+    bottom:135px;
+    left:341px;
+}
+
+#square-5 {
+    bottom:411px;
+    left:168px;
+}
+
+#square-6 {
+    bottom:406px;
+    left:168px;
+}
+
+#square-7 {
+    bottom:437px;
+    left:203px;
+}
+
+#square-8 {
+    bottom:468px;
+    left:133px;
+}
+
+#square-9 {
+    bottom:325px;
+    left:28px;
+}
+
+#square-10 {
+    bottom:356px;
+    left:63px;
+}
+
+#square-11 {
+    bottom:352px;
+    left:63px;
+}
+
+#square-12 {
+    bottom:383px;
+    left:28px;
+}
+
+.triangles {
+    width:3%;
+    height: auto;
+    position: relative;
+    z-index: 2;
+}
+
+#triangle-1 {
+    bottom:415px;
+    left:342px;
+}
+
+#triangle-2 {
+    bottom:450px;
+    left:292px;
+}
+
+#triangle-3 {
+    bottom:415px;
+    left:275px;
+}
+
+#triangle-4 {
+    bottom:415px;
+    left:224px;
+}
+
+#triangle-5 {
+    bottom:624px;
+    left:68px;
+}
+
+#triangle-6 {
+    bottom:624px;
+    left:122px;
+}
+
+#triangle-7 {
+    bottom:624px;
+    left:70px;
+}
+
+#triangle-8 {
+    bottom:659px;
+    left:54px;
+}
+
+#triangle-9 {
+    bottom:415px;
+    left:-104px;
+}
+
+#triangle-10 {
+    bottom:415px;
+    left:-86px;
+}
+
+#triangle-11 {
+    bottom:450px;
+    left:-102px;
+}
+
+#triangle-12 {
+    bottom:449px;
+    left:-153px;
 }
